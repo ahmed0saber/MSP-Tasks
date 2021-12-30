@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Form</title>
+        <meta name="description" content="That's my first task in MSP">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Travel Reservation Form</h1>
+        <h3>Denotes mandotory</h3>
+
+        <form>
+            <label>Full name:</label><br>
+            <input type="text" placeholder="FirstName LastName" required><br>
+            <label>Email address:</label><br>
+            <input type="email" placeholder="EMAIL_ADDRESS" required><br>
+    
+            <label>Select Tour Package:</label><br>
+            <select>
+                <option>Goa</option>
+                <optgroup>
+                    <option>One</option>
+                    <option>Two</option>
+                    <option>Three</option>
+                </optgroup>
+            </select><br>
+    
+            <label>Arrival date:</label><br>
+            <input type="date" required><br>
+            <label>Number of persons:</label><br>
+            <input type="number" placeholder="UNKNOWN_TYPE" required><br>
+    
+            <label>What would you want to avail?</label><br>
+            <input type="checkbox" id="c1" value="1">
+            <label for="c1">Boarding</label><br>
+            <input type="checkbox" id="c2" value="2">
+            <label for="c2">Fooding</label><br>
+            <input type="checkbox" id="c3" value="3">
+            <label for="c3">Sight seeing</label><br>
+    
+            <label>Discount Coupon code:</label><br>
+            <input type="text" placeholder="UNKNOWN_TYPE" required><br>
+    
+            <label>Terms and conditions</label><br>
+            <input type="radio" value="a" id="r1" name="terms">
+            <label for="r1">I agree</label>
+            <input type="radio" value="b" id="r2" name="terms">
+            <label for="r2">I disagree</label><br>
+    
+            <input type="submit" value="Complete reservation">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: #f2f2f2;
+}
+*{
+    font-family: times, "Times New Roman",;
+}
+#container{
+    border-right: 12px solid #324532;
+    width: fit-content;
+    padding: 20px 0px 12px 0px;
+    margin: 40px auto;
+}
+#h1_holder{
+    background-color: rgb(45, 143, 45);
+    padding: 0px 0px 20px 0px;
+}
+#content{
+    background-color: #eee;
+    margin: 0px 0px 0px 20px;
+}
+input, select{
+    background: transparent;
+    border: 1px solid #12121248;
+}
+table{
+    padding: 0px 50px 8px 50px;
+}
+.heading{
+    margin: 0;
+}
+h1{
+    text-align: right;
+    padding: 2px 14px 2px 2px;
+    text-shadow: 0px 0px 16px #fff,
+    0px 0px 12px #fff;
+    font-family: 'Pacifico', cursive;
+}
+h2{
+    padding: 4px 0px 2px 20px;
+    font-family: 'Twinkle Star', cursive;
+}
+.to_right{
+    text-align: right;
+    padding: 6px 2px;
+}
